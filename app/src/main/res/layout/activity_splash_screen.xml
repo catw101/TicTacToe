@@ -12,22 +12,23 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="200sp"
         android:gravity="center_horizontal"
-        android:textSize="70sp"
-        app:fontFamily="casual"
+        android:paddingTop="200sp"
+        android:text="Tic Tac Toe"
         android:textColor="@color/black"
-        android:text="Tic Tac Toe" />
+        android:textSize="50sp"
+        app:fontFamily="@font/aclonica" />
 
     <TextView
         android:id="@+id/caption"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="450sp"
         android:gravity="center_horizontal"
-        android:textSize="15sp"
+        android:paddingTop="450sp"
+        android:text="Click anywhere to begin."
         android:textColor="@color/black"
-        android:text="Click anywhere to begin." />
+        android:textSize="15sp"
+        app:fontFamily="@font/aclonica" />
 
 
 </RelativeLayout>
